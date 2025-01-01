@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+AU+TAS+Guides&family=Playwrite+CO+Guides&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    My name is Joshua !! Hello! Welcom to my journey!
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+    
+        <img src="./Assets/FES.svg" class="logo" alt="FES" />
+        <ul>
+          <li><a href="about">About</a></li>
+          <li><a href="Discord">Discord</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div class="home__description">
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to being a pro with a
+              simplified process.
+            </p>
+            <button class="home__description__button">Start Now</button>
+          </div>
+          <figure>
+            <img src="./Assets/laptop.png" alt="Home page image" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description__wrapper">
+              <p class="section__about__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                consequuntur qui, dolorum distinctio totam ad maiores, animi,
+                alias rerum mollitia in. Repellat, exercitationem laborum! Odio
+                tempora reprehenderit possimus nostrum. Alias.
+              </p>
+              <p class="section__about__para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptates, magnam. Laboriosam nam quis provident aut iste
+                incidunt, dignissimos voluptates eligendi architecto enim
+                voluptate cupiditate reiciendis, eos numquam iusto et rem!
+              </p>
+            </div>
+            <figure class="about__img__wrapper">
+              <img src="./Assets/about.jpg" alt="About image" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img__wrapper">
+              <img src="./Assets/discord.png" alt="Discord icon" />
+            </figure>
+            <div class="section__description__wrapper">
+              <p class="section__about__para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                magnam tempora, molestiae beatae rerum laborum cum accusantium
+                sit necessitatibus saepe repellat aliquam placeat qui
+                repellendus cumque ea velit nam at!
+              </p>
+              <p class="section__about__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                veniam adipisci! Vero aperiam quas veritatis impedit incidunt
+                cupiditate perspiciatis ut libero, quis hic, iusto sapiente
+                ullam nisi odio, ratione excepturi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <label for="">Email</label>
+          <input type="email" placeholder="janedoe@example.com" />
+          <label for="">Message</label>
+          <textarea
+            type="text"
+            placeholder="cool website, lets get connected!"
+          ></textarea>
+          <button>Contact Us!</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img class="footer__img" src="./Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="about">About</a>
+        <a class="footer__link" href="discord">Discord</a>
+        <a class="footer__link" href="contact">Contact</a>
+      </div>
+      <p class="copyright">Copyright Frontend Simplified</p>
+    </footer>
+  </body>
 </html>
